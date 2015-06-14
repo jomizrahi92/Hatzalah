@@ -1,0 +1,41 @@
+/* ----------------------------------------------------------------
+	Canvas: Travel Demo - RTL
+	Version: 1.0
+-----------------------------------------------------------------*/
+
+
+.travel-organiser-tabs ul.tab-nav li {
+	margin-right: 1px;
+	margin-left: 0;
+	border-right: 0 !important;
+}
+
+.travel-organiser-tabs ul.tab-nav li:first-child {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.travel-organiser-tabs ul.tab-nav li a i {
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+#travel-slider-overlay {
+	right: 0;
+	left: auto;
+}
+
+@media (max-width: 767px) {
+
+	.tabs.travel-organiser-tabs {
+		right: 0 !important;
+		left: auto !important;
+	}
+
+}
+
+.device-xs .tabs.travel-organiser-tabs .tab-nav i,
+.device-xxs .tabs.travel-organiser-tabs .tab-nav i {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}

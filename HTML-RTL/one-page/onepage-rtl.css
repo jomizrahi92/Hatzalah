@@ -1,0 +1,105 @@
+/* ----------------------------------------------------------------
+	CSS Specific to the One Page Module
+
+	Some of the CSS Codes have been modified from the Original
+	style.css File to match the Minimal Styling of this Module
+
+	Version: 1.0
+-----------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------------------
+	Header
+---------------------------------------------------------------------------- */
+
+
+#header #header-wrap {
+	right: 0;
+	left: auto;
+}
+
+#header.full-header #logo {
+	border-left: 0;
+	border-right: 0;
+}
+
+#header.full-header #primary-menu > ul {
+	padding-left: 0;
+	margin-left: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.side-header #header-wrap {
+	padding-left: 40px;
+	padding-right: 0;
+}
+
+
+/* Side Panel
+---------------------------------------------------------------------------- */
+
+body.side-push-panel.stretched #header .container {
+	left: 0;
+	right: auto;
+}
+
+body.side-push-panel.side-panel-open.stretched #header .container {
+	left: 300px;
+	right: auto;
+}
+
+
+/* More Link
+---------------------------------------------------------------------------- */
+
+.more-link i.icon-angle-right {
+	margin-right: 3px;
+	margin-left: 0;
+}
+
+/* ----------------------------------------------------------------------------
+	Page Menu - Dots Style
+---------------------------------------------------------------------------- */
+
+#page-menu.dots-menu nav li .dots-menu-caption:after {
+	border-right: 6px solid #EEE !important;
+	border-left: 0 !important;
+}
+
+
+/* ----------------------------------------------------------------------------
+	Services Grid
+---------------------------------------------------------------------------- */
+
+.grid-border [class^=col-]:before {
+	right: -1px;
+	left: auto;
+	border-right: 1px solid rgba(0,0,0,0.05);
+	border-left: 0;
+}
+
+.grid-border [class^=col-]:after {
+	right: 0;
+	left: auto;
+}
+
+/* Medium Before Heading
+---------------------------------------------------------------------------- */
+
+.before-heading.opm-medium { margin: 0  5px 0 0; }
+
+
+/* ----------------------------------------------------------------------------
+	Responsive
+---------------------------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+	#side-panel-trigger {
+		left: 15px !important;
+		right: auto;
+	}
+}
+

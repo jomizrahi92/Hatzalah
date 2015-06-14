@@ -1,0 +1,15 @@
+/* ----------------------------------------------------------------
+    Canvas: Agency Demo - RTL
+    Version: 1.0
+-----------------------------------------------------------------*/
+
+
+@media (min-width: 992px) {
+
+	#primary-menu.style-2 ul li .mega-menu-content {
+		right: -15px;
+		left: auto;
+	}
+
+	body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.center > div > ul { text-align: right; }
+}

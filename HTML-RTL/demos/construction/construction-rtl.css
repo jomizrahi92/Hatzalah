@@ -1,0 +1,33 @@
+/* ----------------------------------------------------------------
+	CSS Specific to the Construction Demo - RTL
+
+	Some of the CSS Codes have been modified from the Original
+	style.css File to match the Styling of this Demo
+
+	Version: 1.0
+-----------------------------------------------------------------*/
+
+
+.header-extras li {
+	margin-right: 30px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 30px;
+	border-left: 0;
+	border-right: 1px solid #EEE;
+}
+
+.header-extras li .he-text {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+.slider-caption {
+	right: -25px;
+	left: auto;
+}
+
+.slider-caption.slider-caption-right {
+	right: auto;
+	left: -25px;
+}
