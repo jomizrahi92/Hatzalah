@@ -879,6 +879,9 @@ body.stretched #header.full-header .container {
 	border-bottom: none;
 }
 
+#header.removetransparent{
+	background: #fff;
+}
 
 /* ----------------------------------------------------------------
 	Logo
